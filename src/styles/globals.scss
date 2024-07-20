@@ -81,8 +81,10 @@ body {
   &__option {
     height: 27px;
     padding: 3px 16px 3px 16px;
-    color: #6B7280;
+    opacity: 1 !important;
+    color: #6b7280;
     cursor: pointer;
+    display: block !important;
 
     &:hover {
       background-color: #F5F5F5;
