@@ -6,7 +6,12 @@ import { options } from "../data/options";
 import ArrowIcon from "../icons/ArrowIcon";
 
 const renderOption = (option) => (
-  <div className="custom-dropdown__list-item">{option}</div>
+  <div
+    className="custom-dropdown__list-item-wrapper"
+    style={{ opacity: 1, display: "block" }}
+  >
+    <div className="custom-dropdown__list-item">{option}</div>
+  </div>
 );
 
 const renderSelected = (option) => (
