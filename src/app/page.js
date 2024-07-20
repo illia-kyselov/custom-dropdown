@@ -5,7 +5,7 @@ import CustomDropdown from "../components/CustomDropdown";
 import { options } from "../data/options";
 import ArrowIcon from "../icons/ArrowIcon";
 
-const renderOption = (option) => <div className="custom-dropdown__list-option">{option}</div>;
+const renderOption = (option) => <div>{option}</div>;
 
 const renderSelected = (option) => (
   <div className="flex">
