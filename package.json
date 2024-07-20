@@ -2,18 +2,23 @@
   "name": "custom-dropdown",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/illia-kyselov/custom-dropdown",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
     "sass": "^1.77.8"
   },
+  
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.2.5"
